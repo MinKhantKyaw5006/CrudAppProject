@@ -8,6 +8,13 @@ by developers Min Khant Kyaw and Farial Azmain
 The initial name of social media app will be name 'Chrip' which the idea 
 comes from birds making noises. <br />
 
+## Table of Contents
+1. [General Info](#general-info)
+2. [Technologies](#technologies)
+3. [Installation](#installation)
+4. [Collaboration](#collaboration)
+5. [FAQs](#faqs)
+
 Our crud app will be a social media platform like instagram and twitter.
 
 ## Team Members
@@ -29,11 +36,11 @@ This Crud app will have three data modals
 ### `User`
 firstly, user modal will contain
 
-Name <br/>
-username <br/>
-Email <br/>
-Passwood <br/>
-Profile Picture and other relevant details <br/>
+1. Name 
+2. username 
+3. Email 
+4. Passwood 
+5. Profile Picture and other relevant details 
 
 
 
