@@ -4,7 +4,7 @@ This is the project proposal of crud web application ' Chrip'
 by developers Min Khant Kyaw and Farial Azmain
 
 ## Table of Contents
-1. [Project Name](## Project Name)
+1. [Project Name](##Team_Members)
 2. [Technologies](#technologies)
 3. [Installation](#installation)
 4. [Collaboration](#collaboration)
