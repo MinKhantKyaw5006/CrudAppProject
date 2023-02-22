@@ -22,10 +22,20 @@ The website will include login system to the platorm
 which will cover the client side 
 and the server side for data maintaining 
 
-### `npm test`
+### `Rest API`
+This Crud app will have three data modals
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `User`
+firstly, user modal will contain
+
+Name <br/>
+username <br/>
+Email <br/>
+Passwood <br/>
+Profile Picture and other relevant details <br/>
+
+
 
 ### `npm run build`
 
