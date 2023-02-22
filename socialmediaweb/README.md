@@ -5,7 +5,7 @@ by developers Min Khant Kyaw and Farial Azmain
 
 ## Project Name
 The initial name of social media app will be name 'Chrip' which the idea 
-comes from birds making noises. <br />~
+comes from birds making noises. <br />
 
 this
 
