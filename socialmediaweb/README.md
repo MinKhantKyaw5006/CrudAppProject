@@ -33,11 +33,11 @@ which will cover the client side
 and the server side for data maintaining 
 
 ### `Rest API`
-This Crud app will have three data modals
+This Crud app will have three data models
 
 
 ### `User`
-firstly, user modal will contain
+firstly, user model will contain
 
 1. Name 
 2. Username 
@@ -50,17 +50,17 @@ Post entity will include
 
 1. Title
 2. Author
-3. Photo/Vieo
+3. Photo/Video
 
 ### `Comment`
-Comment modal will have 
+Comment model will have 
 
 1. Timestamp  
 2. Author
 3. The post being commented on 
  
 ### `chat`
-This is possible additional modal during the development
+This is possible additional model during the development
 
 
 ## Application Workflow
