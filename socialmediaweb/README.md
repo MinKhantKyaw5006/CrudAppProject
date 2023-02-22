@@ -4,14 +4,15 @@ This is the project proposal of crud web application ' Chrip'
 by developers Min Khant Kyaw and Farial Azmain
 
 ## Project Name
+### `chrip`
 The initial name of social media app will be name 'Chrip' which the idea 
 comes from birds making noises. <br />
 
-this
+Our crud app will be a social media platform like instagram and twitter.
 
-In the project directory, you can run:
 
-### `npm start`
+
+
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
