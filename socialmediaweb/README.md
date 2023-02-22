@@ -3,17 +3,19 @@
 This is the project proposal of crud web application ' Chrip' 
 by developers Min Khant Kyaw and Farial Azmain
 
+## Table of Contents
+1. [Project Name](#Project_Name)
+2. [Technologies](#technologies)
+3. [Installation](#installation)
+4. [Collaboration](#collaboration)
+5. [FAQs](#faqs) 
+
 ## Project Name
 ### `chrip`
 The initial name of social media app will be name 'Chrip' which the idea 
 comes from birds making noises. <br />
 
-## Table of Contents
-1. [General Info](#general-info)
-2. [Technologies](#technologies)
-3. [Installation](#installation)
-4. [Collaboration](#collaboration)
-5. [FAQs](#faqs)
+
 
 Our crud app will be a social media platform like instagram and twitter.
 
