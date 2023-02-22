@@ -63,7 +63,7 @@ Comment modal will have
 This is possible additional modal during the development
 
 
-### `Application Workflow`
+## Application Workflow
 1. User will log in to the website
 2. User can view profile status  
 3. Make Posts 
@@ -73,7 +73,7 @@ This is possible additional modal during the development
 7. View trends with hashtags
 8. Scroll down or up to see his/her posts or others(other profile might be premade)
 
-### `Tech stack`
+## Tech stack
 
 1. We will use MERN stack for the project mainly
 2. We might use Bootstrap or MUI for UI 
