@@ -1,8 +1,9 @@
 # Social Media Crud App
 
-This is the project proposal of crud web application ' Chrip'
+This is the project proposal of crud web application ' Chrip' 
+by developers Min Khant Kyaw and Farial Azmain
 
-## Available Scripts
+## Project Name
 
 In the project directory, you can run:
 
