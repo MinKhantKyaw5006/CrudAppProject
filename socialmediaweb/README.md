@@ -5,6 +5,7 @@ by developers Min Khant Kyaw and Farial Azmain
 
 ## Project Name
 
+# chrip
 In the project directory, you can run:
 
 ### `npm start`
