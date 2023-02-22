@@ -5,8 +5,8 @@ by developers Min Khant Kyaw and Farial Azmain
 
 ## Table of Contents
 1. [Project Name](##Project_Name)
-2. [Technologies](#technologies)
-3. [Installation](#installation)
+2. [Team Members](#technologies)
+3. [Project Description](#installation)
 4. [Collaboration](#collaboration)
 5. [FAQs](#faqs) 
 
@@ -39,12 +39,30 @@ This Crud app will have three data modals
 firstly, user modal will contain
 
 1. Name 
-2. username 
+2. Username 
 3. Email 
 4. Passwood 
 5. Profile Picture and other relevant details 
 
+### `Post`
+Post entity will include
 
+1. Title
+2. Author
+3. Photo/Vieo
+
+### `Comment`
+Comment modal will have 
+
+1. Timestamp  
+2. Author
+3. The post being commented on 
+ 
+### `chat`
+This is possible additional modal during the development
+
+
+### `Features`
 
 ### `npm run build`
 
