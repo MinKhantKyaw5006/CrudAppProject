@@ -1,17 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css"
 function App() {
   return (
+    <>
     <div className="App">
-      <header className="App-header">
-        
-        <p >
-          Hello world
-        </p>
-     
-      </header>
+        <div className="blur" style={{top: '-10%', right: '0'}}>hello world</div>
+        <div className="blur" style={{top: '36%', left: '-8rem'}}></div>
     </div>
+    {/* <div className="hello">hello world</div> */}
+    </>
   );
 }
 
