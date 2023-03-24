@@ -1,0 +1,8 @@
+.PostSide {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    overflow: hidden;
+    border: 1px solid red;
+  }

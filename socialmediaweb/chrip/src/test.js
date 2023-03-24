@@ -1,12 +1,12 @@
 import React from 'react';
+import './PostSide.css';
 
-function Test() {
+function postSide() {
   return (
     <div>
-      <h1>This is a test component</h1>
-      <p>Welcome to the test component</p>
+      PostSides
     </div>
   );
 }
 
-export default Test;
+export default postSide;

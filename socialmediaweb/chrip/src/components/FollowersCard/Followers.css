@@ -46,6 +46,7 @@
     margin-bottom: 20px;
     margin-bottom: 10px;
     margin-top: 10px; /* add this line to move the image below */
+    box-shadow: var(--profileShadow);
     /* border: 1px solid red; */
 
 }
