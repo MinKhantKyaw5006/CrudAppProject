@@ -18,25 +18,32 @@
     display: flex;
     align-items: center;
     gap: 0.15rem;
-  }
-  
-  .LogoUse img {
-    max-width: 7%;
+    /* border: 1px solid red; */
+
+    max-width: 300px;
+    /* adjust the value as needed */
+    margin: auto;
+    /* center the element horizontally */
+}
+
+.LogoUse img {
+    max-width: 10%;
     height: auto;
-  }
-  
-  .Search {
+}
+
+.Search {
     display: flex;
     background-color: var(--inputColor);
     border-radius: 10px;
     padding: 5px;
     height: 30px;
-    
-    
-  }
- 
+    /* border: 1px solid red; */
 
-  .Search input {
+
+}
+
+
+.Search input {
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 5px;
@@ -47,22 +54,22 @@
     border: none;
     outline: none;
 
-  }
+}
 
- .searchIcon {
+.searchIcon {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(rgb(7, 81, 88),rgb(4, 68, 68),rgb(3, 45, 45));
+    background: linear-gradient(rgb(7, 81, 88), rgb(4, 68, 68), rgb(3, 45, 45));
     border-radius: 8px;
     padding: 4px;
     color: white;
     box-shadow: 0 0 7px 3px rgba(31, 72, 79, 0.3);
- }
+}
 
- .searchIcon:hover{
+.searchIcon:hover {
     cursor: pointer;
- }
+}
 
 
 
