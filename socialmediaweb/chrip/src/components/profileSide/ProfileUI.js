@@ -40,7 +40,7 @@ function ProfileUI() {
                 </div>
                 <img src={uiline} alt="" />
             </div>
-
+            <span>My Profile</span>
         </div>
     );
 }
