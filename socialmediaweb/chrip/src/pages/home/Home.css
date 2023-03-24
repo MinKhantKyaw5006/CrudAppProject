@@ -2,7 +2,8 @@
     color: rgb(0, 0, 0);
     position: relative;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: 1fr 2fr 1fr;
     gap: 1rem;
   }
   
@@ -16,11 +17,13 @@
     grid-column-start: 2;
     grid-column-end: 3;
     text-align: center;
+    /* border: 1px solid red; */
   }
   
   .RightSide {
     grid-column-start: 3;
     grid-column-end: 4;
     text-align: center;
+    /* border: 1px solid red; */
   }
   

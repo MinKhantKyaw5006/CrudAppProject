@@ -1,0 +1,35 @@
+/* .LogoUse img {
+    max-width: 7%;
+    height: auto;
+    gap: 1 rem;
+
+
+}
+
+.Search{
+    display: flex;
+    background-color: var(--inputColor);
+    border-radius: 13px;
+    padding: 5px;
+} */
+
+
+.LogoUse {
+    display: flex;
+    align-items: center;
+  }
+  
+  .LogoUse img {
+    max-width: 7%;
+    height: auto;
+  }
+  
+  .Search {
+    display: flex;
+    /* background-color: var(--inputColor); */
+    border-radius: 2px;
+    padding: 5px;
+    height: 30px;
+    
+  }
+  

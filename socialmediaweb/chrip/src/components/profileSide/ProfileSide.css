@@ -1,5 +1,16 @@
 .ProfileSide {
     grid-column-start: 1;
     grid-column-end: 2;
-    text-align: center;
+    /* border: 1px solid red; */
+    
   }
+
+
+  /* .ProfileSide{
+    display: flex;
+    flex-direction: column;
+    gap: 1 rem;
+    align-items: center;
+    overflow: auto;
+    
+  } */
