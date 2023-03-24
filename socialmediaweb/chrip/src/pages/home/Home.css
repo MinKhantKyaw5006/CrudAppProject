@@ -17,13 +17,13 @@
     grid-column-start: 2;
     grid-column-end: 3;
     text-align: center;
-    /* border: 1px solid red; */
+    border: 1px solid red;
   }
   
   .RightSide {
     grid-column-start: 3;
     grid-column-end: 4;
     text-align: center;
-    /* border: 1px solid red; */
+    border: 1px solid red;
   }
   
