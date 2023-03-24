@@ -2,7 +2,8 @@ import React from 'react';
 import './ProfileSide.css';
 import Logo from './LogoUse/Logo';
 import ProfileUI from './ProfileUI';
-import Followers from '../FollowersCard/Followers';
+
+import FollowersCard from '../FollowersCard/Followers';
 
 
 function ProfileSide() {
@@ -10,7 +11,7 @@ function ProfileSide() {
         <div className='ProfileSide'>
             <Logo/>
             <ProfileUI/>
-            <Followers/>
+            <FollowersCard/>
         </div>
     );
 }

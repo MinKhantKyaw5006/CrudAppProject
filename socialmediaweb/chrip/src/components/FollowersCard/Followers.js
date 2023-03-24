@@ -1,13 +1,27 @@
 import React from 'react';
 import './Followers.css';
+import { Followersinfo } from '../../Data/FollowersData';
 
-function Followers() {
+function FollowersCard() {
   return (
-    <div>
-      <h1>This is a test component</h1>
-      <p>Welcome to the test component</p>
-    </div>
-  );
+   <div className='FollowerCard'>
+
+    <h3>Who is following you</h3>
+
+    {Followersinfo.map((follower,id)=>{
+        return ( 
+            <div className='follower'>
+                testing
+
+            </div>
+        )
+    })}
+
+  
+
+   </div>
+
+  )
 }
 
-export default Followers;
+export default FollowersCard;
