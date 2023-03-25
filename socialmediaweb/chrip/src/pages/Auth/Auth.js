@@ -3,9 +3,10 @@ import './Auth.css';
 
 function Auth() {
   return (
-    <div>
-      This is a example test component
-      Min Khant Kyaw 6410935
+    <div className="Auth">
+        <div className="a-left">
+            <img src="" alt="" />
+        </div>
     </div>
   );
 }
