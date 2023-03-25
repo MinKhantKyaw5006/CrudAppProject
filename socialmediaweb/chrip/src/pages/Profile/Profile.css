@@ -1,6 +1,70 @@
-.Profile{
+/* .Profile{
     position: relative;
     display: grid;
     grid-template-columns: 18rem auto 20rem;
     gap: 1rem;
+} */
+
+
+.Profile {
+
+    color: rgb(0, 0, 0);
+    position: relative;
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 2rem;
 }
+
+
+
+.profile-ui-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    background-color: #d9d9d9;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 20px 5px rgba(255,255,255,0.8);
+    overflow: hidden;
+   
+  }
+  
+  .profile-ui-container .ProfileUI {
+    /* Add your styles here for the ProfileUI component */
+    color: rgb(126, 187, 241);
+  }
+  
+  
+.Profile-center{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.profile-ui-container .spare1 {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    font-size: 1rem;
+    color: rgb(15, 24, 32);
+    background-color: var(--cardColor);
+    height: 27rem;
+    width: 12rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+  }
+
+
+  .profile-ui-container .spare2 {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    font-size: 1rem;
+    color: rgb(15, 24, 32);
+    background-color: var(--cardColor);
+    height: 27rem;
+    width: 12rem;
+    border-radius: 1rem;
+    margin-left: 1rem;
+  }

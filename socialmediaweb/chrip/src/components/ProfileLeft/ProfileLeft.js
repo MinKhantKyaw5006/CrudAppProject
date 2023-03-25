@@ -6,8 +6,8 @@ import Logo from '../profileSide/LogoUse/Logo';
 function ProfileLeft() {
   return (
     <div className="ProfileLeft">
-      <Logo/>
-      <InfoCard/>
+      <Logo />
+      <InfoCard />
       <FollowersCard/>
     </div>
   );

@@ -5,6 +5,10 @@ import potrait from '../../img/potrait.jfif'
 import uiline from '../../img/lineui.png'
 import './ProfileUI.css';
 function ProfileUI() {
+
+    const ProfilePage = true;
+
+
     return (
         <div className="ProfileCard">
             <div className="ProfileImages">
@@ -34,13 +38,23 @@ function ProfileUI() {
                         <span>Followers</span>
 
                     </div>
+                    {ProfilePage && (
+                        <>
+                        <div className="vl">
 
+                        </div>
+                        <div className="follow">
+                            <span>3</span>
+                            <span>Posts</span>
 
-
+                        </div>
+                        </>
+                    )}
                 </div>
                 <img src={uiline} alt="" />
             </div>
-            <span>My Profile</span>
+            {ProfilePage? "": <span>My Profile</span>}
+            
         </div>
     );
 }

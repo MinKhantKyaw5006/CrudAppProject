@@ -19,7 +19,7 @@ function Post({data}) {
 
     </div>
 
-    <span>{data.likes}Likes</span>
+    <span style={{color: "var(--gray)", fontSize: '12px'}}>{data.likes}Likes</span>
     <div className="detail">
         <span><b>{data.name}</b></span>
         <span>{data.desc}</span>

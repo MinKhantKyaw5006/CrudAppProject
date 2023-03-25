@@ -7,11 +7,15 @@ function InfoCard() {
     <div className="InfoCard">
         <div className="infohead">
             <h4>Your Info</h4>
-            <UilPen/>
+            <div>
+            <UilPen width='2rem' height='1.2rem'/>
+
+            </div>
+            
         </div>
         <div className="info">
             <span>
-                <b>Status</b>
+                <b>Status </b>
             </span>
             <span>relationship</span>
         </div>
@@ -29,7 +33,7 @@ function InfoCard() {
             </span>
             <span>ABAC University</span>
         </div>
-        <button className="button">Logout</button>
+        <button className="button logout-button">Logout</button>
     </div>
   );
 }
