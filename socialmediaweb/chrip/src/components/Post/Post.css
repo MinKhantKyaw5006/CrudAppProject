@@ -1,20 +1,44 @@
-.Post{
+.Post {
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    border-radius: 0.5rem;
+    padding: 3rem;
     background-color: var(--cardColor);
     gap: 1rem;
+    
 }
 
-.Post>img{
+.Post>img {
     width: 100%;
-    
+    max-height: 50rem;
+
     object-fit: cover;
     border-radius: 0.5rem;
+    box-shadow: 0px 10px 50px 4px rgba(1, 5, 29, 0.3);
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    
 }
 
-.postReacts > img {
+.postReacts>img {
     width: 1.5rem;
     height: 1.5rem;
+    
+
+}
+
+.postReacts{
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+::-webkit-scrollbar{
+    display: none;
+  }
+
+  /* Hide scrollbar in Firefox */
+body {
+    scrollbar-width: none;
   }
   

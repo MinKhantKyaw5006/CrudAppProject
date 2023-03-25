@@ -84,7 +84,7 @@
   padding: 8px;
   width: 6.5rem;
   color: white;
-  box-shadow: -13px 0 70px 2px rgba(42, 138, 179, 0.3);
+  box-shadow: -13px 0 70px px rgba(42, 138, 179, 0.3);
   transition: all 100ms ease-out;
   
 }
@@ -95,3 +95,18 @@
   background: transparent;
   border: 2px solid var(rgb(40, 71, 78));
 }
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+::-webkit-scrollbar-corner{
+  display: none;
+}
+
+/* Hide scrollbar in Firefox */
+body {
+  scrollbar-width: none;
+}
+
+
