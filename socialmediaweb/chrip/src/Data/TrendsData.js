@@ -1,7 +1,7 @@
 export const TrendData = [
     {
         name: "VMS President Election",
-        shares: 197,
+        shares: 297,
     },
     {
         name: "Back to Uni event",
