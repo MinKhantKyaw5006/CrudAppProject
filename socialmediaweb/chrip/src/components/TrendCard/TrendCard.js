@@ -1,13 +1,23 @@
 import React from 'react';
 import './TrendCard.css';
-
+import { TrendData } from '../../Data/TrendsData';
 function TrendCard() {
-  return (
-    <div>
-      This is a example test component
-      Min Khant Kyaw 6410935
-    </div>
-  );
+    return (
+        <div className="TrendCard">
+            <h3>
+                Trends For You
+            </h3>
+            {TrendData.map((trend) => {
+                return (
+                    <div className="trend">
+                        <span>#{trend.name}</span>
+                        <span>{trend.shares}k shares</span>
+                    </div>
+                )
+            })}
+
+        </div>
+    );
 }
 
 export default TrendCard;
