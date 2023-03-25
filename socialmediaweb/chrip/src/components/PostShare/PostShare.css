@@ -4,14 +4,15 @@
     background-color: var(--cardColor);
     padding: 1rem;
     border-radius: 1rem;
+    
 
 
 }
 
 .PostShare>img{
     border-radius: 50%;
-    width: 3rem;
-    height: 3rem;
+    width: 2rem;
+    height: 2rem;
 }
 
 .PostShare>div{
@@ -33,6 +34,7 @@
 .PostChoice{
     display: flex;
     justify-content: space-around;
+    /* border: 1px solid red; */
 
 }
 
@@ -45,6 +47,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    /* border: 1px solid red; */
 }
 
 .option:hover{
@@ -57,3 +60,63 @@
     padding-right: 20px;
     font-size: 12px;
 }
+
+.previewImage{
+    position: relative;
+    /* margin: 0 auto; */
+    /* width: 46rem; */
+    /* border: 1px solid rgb(41, 22, 56); */
+}
+
+.circle {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    margin: 0 auto;
+  }
+
+.previewImage>svg{
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+    cursor: pointer;
+    
+}
+
+.previewImage>img{
+    width: 100%;
+    box-shadow: 0px 10px 70px rgba(5, 14, 44, 0.3);
+   
+  
+
+    /*setting max height croped images, might think of a way later*/
+
+    /* max-height: 20rem; */
+
+    /*adjust image acoording to width max height by object fit*/
+    /* object-fit: cover; */
+
+    /* height: 50rem;
+    object-fit: contain; */
+
+    /*fixed height*/
+    /* height: 700px;  */
+  object-fit: cover; /* crop images if necessary */
+    
+    border-radius: 1rem;
+    border: 1px solid rgb(41, 22, 56);
+
+}
+
+
+
+  
+
