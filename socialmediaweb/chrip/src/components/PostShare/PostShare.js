@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useState, useRef } from 'react';
 import './PostShare.css';
 import Profile from '../../img/profile.jfif'
 import { UilScenery, UilSchedule, UilPlayCircle, UilLocationPoint } from "@iconscout/react-unicons";
 
 function PostShare() {
+    /*use use state and useref for mananging files , images. image and set image const delcared */
+    const [image, setImage] = useState(null)
+    const imageRef = useRef()
+
+
     return (
         <div className='PostShare'>
             <img src={Profile} alt="" />
@@ -11,24 +16,35 @@ function PostShare() {
             <div>
                 <input type="text" placeholder="What's happening" />
                 <div className='PostChoice'>
-                    <div className="option">
+                    {/*photo input */}
+                    <div className="option" style={{ color: "var(--photo)" }}>
                         <UilScenery />
                         Photo
                     </div>
 
-                    <div className="option">
+                    {/*video input */}
+                    <div className="option" style={{ color: "var(--video)" }}>
                         <UilPlayCircle />
                         video
                     </div>
 
-                    <div className="option">
+                    {/*location input */}
+                    <div className="option" style={{ color: "var(--location)" }}>
                         <UilLocationPoint />
                         Location
                     </div>
 
-                    <div className="option">
+                    {/*schedule input */}
+                    <div className="option" style={{ color: "var(--shedule)" }}>
                         <UilSchedule />
                         Schedule
+                    </div>
+
+                    <button className="button ps-button">Share</button>
+
+                    {/*give input for importing image */}
+                    <div style={{display: "none"}}>
+                        <input type="file" name="myImage" ref={imageRef} />
                     </div>
 
                 </div>
