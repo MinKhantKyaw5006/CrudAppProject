@@ -8,7 +8,7 @@ function Posts() {
         <div className="Posts">
             {PostsData.map((post, id) => {
                 return (<div>
-                    <Post />
+                    <Post data={post} id={id}/>
                     
                 </div>
                 )

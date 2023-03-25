@@ -16,7 +16,7 @@ export const PostsData = [
         img: postPic2,
         name: 'Maryam',
         desc: "Party time :)",
-        likes: 2300,
+        likes: 7600,
         liked: false
 
     },
@@ -29,8 +29,8 @@ export const PostsData = [
     },
     {
         img:postPic4,
-        name: "Salena Gomez",
-        desc: "At Archery Festival",
+        name: "babara Gomez",
+        desc: "At water Festival",
         likes: 800,
         liked: false
     }
