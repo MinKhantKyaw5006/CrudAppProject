@@ -1,7 +1,7 @@
 import React from 'react';
+import './PostShare.css';
 
-
-function ExampleComponent() {
+function PostShare() {
   return (
     <div>
       This is a example test component
@@ -10,4 +10,4 @@ function ExampleComponent() {
   );
 }
 
-export default ExampleComponent;
+export default PostShare;
