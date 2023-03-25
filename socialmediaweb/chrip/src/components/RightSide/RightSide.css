@@ -27,4 +27,11 @@
     width: 1.5rem;
     height: 1.5rem;
 }
+
+.r-button{
+  height: 3rem;
+  width: 60%;
+  align-self: center;
+  bottom: 1rem;
+}
   
