@@ -7,4 +7,23 @@
     gap: 2rem;
   }
   
- 
+  /* .profileSide {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    text-align: center;
+  }
+  
+  .postSide {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+    border: 1px solid red;
+  }
+  
+  .RightSide {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    text-align: center;
+    border: 1px solid red;
+  }
+   */
