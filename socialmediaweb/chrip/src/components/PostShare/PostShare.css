@@ -2,19 +2,19 @@
     display: flex;
     gap: 1rem;
     background-color: var(--cardColor);
-    padding: 1rem;
+    padding: 3rem;
     border-radius: 1rem;
    
-    flex-direction: column;
+    flex-direction: row;
     
 
 
 }
 
 .PostShare>img{
-    border-radius: 0%;
-    width: 2rem;
-    height: 2rem;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
 }
 
 .PostShare>div{

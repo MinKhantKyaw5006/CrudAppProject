@@ -84,7 +84,7 @@
   padding: 8px;
   width: 6.5rem;
   color: white;
-  box-shadow: -13px 0 70px px rgba(42, 138, 179, 0.3);
+  box-shadow: -13px 0 70px 7px rgba(42, 138, 179, 0.3);
   transition: all 100ms ease-out;
   
 }
