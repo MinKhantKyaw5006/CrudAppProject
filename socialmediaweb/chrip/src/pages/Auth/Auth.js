@@ -12,16 +12,47 @@ function Auth() {
               <h5>  Bringing the world closer, with one connection at a time </h5>
             </div>
         </div>
-        <Signup/>
+        {/* <Signup/> */}
+        <LogIn/>
     </div>
   );
 }
 
+function LogIn(){
+  return(
+    <div className="a-right">
+    <form  className="infoForm authForm">
+     <h3>Login In</h3>
+    
+     <div>
+       <input type="text" placeholder='User Name' className='infoInput'
+       name ='username' />
+     </div>
+
+    
+
+     <div>
+       <input type="text" placeholder='Confirm Passwood' className='infoInput'
+       name ='confrim' />
+     </div>
+     <div className="">
+       <span style={{fontSize: '14px'}}>Don't have an account? Sign up!</span>
+     </div>
+     <button className="button infoButton" type="submit">SignUp</button>
+
+    </form>
+   </div>
+  )
+}
+
+
+
+
 function Signup(){
   return(
     <div className="a-right">
-     <form  className="infoForm">
-      <h3>Sign up</h3>
+     <form  className="infoForm authForm">
+      <h3>Sign Up</h3>
       <div>
         <input type="text" placeholder='First Name' className='infoInput'
         name ='firstname' />
@@ -46,7 +77,7 @@ function Signup(){
         name ='confrim' />
       </div>
       <div className="">
-        <span>Already have an account? Login!</span>
+        <span style={{fontSize: '14px'}}>Already have an account? Login!</span>
       </div>
       <button className="button infoButton" type="submit">SignUp</button>
 
