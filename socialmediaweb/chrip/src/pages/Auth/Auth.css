@@ -1,0 +1,73 @@
+.Auth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 4rem;
+    position: relative;
+    background-color: var(--Cardcolor);
+    /* box-shadow: var(--profileShadow); */
+}
+
+
+
+.a-left img {
+    width: 5rem;
+    height: 5rem;
+
+}
+
+.Auth>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.a-left{
+    gap: 2rem;
+}
+
+.Webname>h1{
+    font-size: 3rem;
+    background-color: rgb(2, 35, 42);
+    background-image: var(--buttonbg);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    text-shadow: 1px 1px 5px rgba(29, 46, 77, 0.5);
+    
+}
+
+.Webname>h5{
+    font-size: 1rem;
+    
+}
+
+.infoForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.infoInput{
+    border: none;
+    outline: none;
+    background-color: var(--inputColor);
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1;
+    width: 15rem;
+}
+
+
+.infoButton{
+    width: 6rem;
+    height: 2rem;
+    
+}
