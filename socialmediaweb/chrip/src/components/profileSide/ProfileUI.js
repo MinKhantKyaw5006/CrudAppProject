@@ -1,7 +1,7 @@
 import React from 'react';
 import cover from '../../img/cover.jfif'
 import profile from '../../img/profile.jfif'
-import potrait from '../../img/potrait.jfif'
+
 import uiline from '../../img/lineui.png'
 import './ProfileUI.css';
 function ProfileUI() {
