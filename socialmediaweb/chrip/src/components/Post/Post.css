@@ -30,7 +30,7 @@
 .postReacts{
     display: flex;
     align-items: flex-start;
-    gap: 1.5rem;
+    gap: 1.4rem;
 }
 
 ::-webkit-scrollbar{
