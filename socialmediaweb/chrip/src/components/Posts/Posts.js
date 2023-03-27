@@ -7,7 +7,7 @@ function Posts() {
     return (
         <div className="Posts">
             {PostsData.map((post, id) => {
-                return (<div>
+                return (<div key={id}> 
                     <Post data={post} id={id}/>
                     
                 </div>

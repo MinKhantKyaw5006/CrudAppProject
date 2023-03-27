@@ -10,7 +10,7 @@ function FollowersCard() {
 
             {Followersinfo.map((follower, id) => {
                 return (
-                    <div className='follower'>
+                    <div className='follower' key={id}>
                         <div>
                             <img src={follower.img} alt="" className='followerprofile' />
                             <div className='name'>

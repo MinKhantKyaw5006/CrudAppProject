@@ -7,9 +7,9 @@ function TrendCard() {
             <h3>
                 Trends For You
             </h3>
-            {TrendData.map((trend) => {
+            {TrendData.map((trend,id) => {
                 return (
-                    <div className="trend">
+                    <div className="trend" key={id}>
                         <span>#{trend.name}</span>
                         <span>{trend.shares}k shares</span>
                     </div>
