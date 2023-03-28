@@ -22,9 +22,20 @@ function App() {
       {/* <Auth/> */}
 
       <Routes>
-        <Route path = '/' element={user?<Navigate to ="home"/>: <Navigate to = 'auth'/>} />
+        {/* <Route path = '/' element={user?<Navigate to ="home"/>: <Navigate to = 'auth'/>} />
         <Route path= '/home' element ={user? <Home/>: <Navigate to = '../auth' />} />
-        <Route path = '/auth' element = {user? <Navigate to = '../home' /> : <Auth />} />
+        <Route path = '/auth' element = {user? <Navigate to = '../home' /> : <Auth />} /> */}
+
+
+        <Route path='/' element={<Navigate to='auth' />} />
+        <Route path='/home' element={user ? <Home /> : <Navigate to='../auth' />} />
+        <Route path='/auth' element={user ? <Navigate to='../home' /> : <Auth />} />
+
+
+
+
+
+
 
 
 
