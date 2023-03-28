@@ -1,14 +1,18 @@
 import React, { useState } from 'react';
 import './Auth.css';
 import Logoimage from '../../img/gardenmate.png';
-import {useDispatch} from 'react-redux';
+import {useDispatch, useSelector} from 'react-redux';
 import { logIn, signUp } from '../../actions/AuthAction';
 
 function Auth() {
+  
+  //authReducer or authReducers 
+  const loading = useSelector((state)=>state.authReducer.loading)
   const [isSignup, setIsSignup] = useState(true)
   const dispatch = useDispatch()
   const [data, setData] = useState({ firstname: "", lastname: "", passwood: "", confirm: "", username: "" })
   const [confirmPass, setConfirmPass] = useState(true)
+  console.log(loading)
 
 
   const handleSubmit =(e)=>{
