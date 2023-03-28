@@ -4,11 +4,13 @@ import Comment from '../../img/comment.png'
 import Share from '../../img/send.png'
 import Heart from '../../img/heartfill.png'
 import NotHeart from '../../img/heartempty.png'
+import { useSelector } from 'react-redux';
 
 function Post({data}) {
+  const {user} = useSelector((state)=> state.authReducer.authData)
   return (
    <div className="Post">
-    <img src={data.img} alt="" />
+    <img src={data.img? process.env.REACT_APP_PUBLIC_FOLDER + data.image:""} alt="" />
 
     {/*this will be reaction division with icons of 3*/}
 
