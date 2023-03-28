@@ -86,3 +86,8 @@
     justify-content: center;
     text-align: center;
 }
+
+.infoInput[name="firstname"] {
+    margin-bottom: 15px;
+  }
+  
