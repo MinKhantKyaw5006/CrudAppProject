@@ -2,11 +2,16 @@ import React, { useState, useRef } from 'react';
 import './PostShare.css';
 import Profile from '../../img/profile.jfif'
 import { UilScenery, UilSchedule, UilPlayCircle, UilLocationPoint, UilTimes} from "@iconscout/react-unicons";
+import { useDispatch, useSelector } from 'react-redux';
+import { uploadImage } from '../../actions/uploadAction';
 
 function PostShare() {
     /*use use state and useref for mananging files , images. image and set image const delcared */
     const [image, setImage] = useState(null)
     const imageRef = useRef()
+    const {user} = useSelector ((state)=>state.authReducer.authData)
+    const desc = useRef()
+    const dispatch = useDispatch()
 
     /* An important Function 
     
@@ -26,17 +31,56 @@ function PostShare() {
     3.if 0, theres image,
     4.if not, create url for import use image*/
 
+    // const onImageChange= (event)=>{
+    //     if (event.target.files && event.target.files[0]){
+    //         let img= event.target.files[0];
+    //         setImage({
+    //             image: URL.createObjectURL (img),
+    //         });
+    //     }
+        
+
+
+    // }
+
+
     const onImageChange= (event)=>{
         if (event.target.files && event.target.files[0]){
             let img= event.target.files[0];
-            setImage({
-                image: URL.createObjectURL (img),
-            });
+            setImage(img);
         }
         
 
 
     }
+
+    const handleSubmit = (e)=> {
+        e.preventDefault();
+
+        const newPost ={
+            userId: user._id,
+            desc: desc.current.value
+        }
+
+        if(image){
+            const data= new FormData ()
+            const filename = Date.now() + image.name
+            data.append("name", "filename")
+            data.append("file", image)
+            newPost.image = filename
+            console.log(newPost)
+
+            try {
+                dispatch(uploadImage(data))
+            } catch (error) {
+                console.log(error)
+            }
+        }
+
+
+
+    }
+
 
 
     return (
@@ -44,7 +88,10 @@ function PostShare() {
             <img src={Profile} alt="" />
 
             <div>
-                <input type="text" placeholder="What's happening" />
+                <input 
+                ref = {desc}
+                required
+                type="text" placeholder="What's happening" />
                 <div className='PostChoice'>
                     {/*photo input */}
                     <div className="option" style={{ color: "var(--photo)" }}
@@ -72,7 +119,9 @@ function PostShare() {
                         Schedule
                     </div>
 
-                    <button className="button ps-button">Share</button>
+                    <button className="button ps-button"
+                    onClick={handleSubmit}
+                    >Share</button>
 
                     {/*give input for importing image */}
                     <div style={{display: "none"}}>
@@ -92,7 +141,7 @@ function PostShare() {
                         <UilTimes onClick ={()=> setImage(null)}/>
                         
                         </span>
-                        <img src= {image.image} alt="" />
+                        <img src= {URL.createObjectURL(image)} alt="" />
                     </div>
                 )}
             </div>

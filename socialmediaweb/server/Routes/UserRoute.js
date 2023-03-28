@@ -6,6 +6,7 @@ const router = express.Router();
 
 router.get('/', async (req,res)=>{
     res.send("user route")
+    console.log(req)
 })
 
 
