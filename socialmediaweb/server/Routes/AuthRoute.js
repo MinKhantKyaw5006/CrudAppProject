@@ -4,7 +4,7 @@ import { loginUser, registerUser } from '../Controllers/AuthControllers.js';
 const router = express.Router()
 
 
-// router.get('/', async(req,res)=>{res.send("Auth Route")})
+router.get('/', async(req,res)=>{res.send("Auth Route")})
 
 //route for new user, login 
 

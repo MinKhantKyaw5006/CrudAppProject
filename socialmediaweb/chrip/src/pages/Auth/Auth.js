@@ -118,6 +118,11 @@ function Auth() {
   );
 }
 
+
+
+export default Auth;
+
+
 // function LogIn() {
 //   return (
 //     <div className="a-right">
@@ -186,5 +191,3 @@ function Auth() {
 //   )
 
 // }
-
-export default Auth;
