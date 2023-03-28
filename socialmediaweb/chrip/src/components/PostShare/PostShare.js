@@ -7,6 +7,10 @@ import { uploadImage, uploadPost } from '../../actions/uploadAction';
 
 function PostShare() {
     /*use use state and useref for mananging files , images. image and set image const delcared */
+    
+    const loading = useSelector((state) => state.postReducer.uploading)
+    // const loading = useSelector((state) => state.postReducer ? state.postReducer.uploading : false);
+
     const [image, setImage] = useState(null)
     const imageRef = useRef()
     const {user} = useSelector ((state)=>state.authReducer.authData)
@@ -54,6 +58,11 @@ function PostShare() {
 
     }
 
+    const reset = ()=> {
+        setImage (null);
+        desc.current.value=""
+    }
+
     const handleSubmit = (e)=> {
         e.preventDefault();
 
@@ -77,6 +86,7 @@ function PostShare() {
             }
         }
         dispatch(uploadPost(newPost))
+        reset()
 
 
 
@@ -122,7 +132,8 @@ function PostShare() {
 
                     <button className="button ps-button"
                     onClick={handleSubmit}
-                    >Share</button>
+                    disabled ={loading}
+                    >{loading? "Uploading...": "Share"}</button>
 
                     {/*give input for importing image */}
                     <div style={{display: "none"}}>
