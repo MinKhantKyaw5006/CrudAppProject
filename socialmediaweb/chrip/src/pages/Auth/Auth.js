@@ -112,7 +112,7 @@ function Auth() {
               {isSignup ? "Already have an account? Login!" : "Don't have an account? Sign Up"}
             </span>
           </div>
-          <button className="button infoButton" type="submit">{isSignup ? "Sign Up" : "Log In"}</button>
+          <button className="button infoButton" type="submit" disabled={loading}>{loading? "Loading...": isSignup ? "Sign Up" : "Log In"}</button>
 
         </form>
       </div>
