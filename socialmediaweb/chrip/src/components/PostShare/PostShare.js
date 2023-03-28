@@ -3,7 +3,7 @@ import './PostShare.css';
 import Profile from '../../img/profile.jfif'
 import { UilScenery, UilSchedule, UilPlayCircle, UilLocationPoint, UilTimes} from "@iconscout/react-unicons";
 import { useDispatch, useSelector } from 'react-redux';
-import { uploadImage } from '../../actions/uploadAction';
+import { uploadImage, uploadPost } from '../../actions/uploadAction';
 
 function PostShare() {
     /*use use state and useref for mananging files , images. image and set image const delcared */
@@ -76,6 +76,7 @@ function PostShare() {
                 console.log(error)
             }
         }
+        dispatch(uploadPost(newPost))
 
 
 
