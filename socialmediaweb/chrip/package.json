@@ -2,7 +2,7 @@
   "name": "chrip",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http: //localhost:5000",
+  "proxy": "http://localhost:5000",
   "dependencies": {
     "@iconscout/react-unicons": "^2.0.0",
     "@mantine/core": "^6.0.4",

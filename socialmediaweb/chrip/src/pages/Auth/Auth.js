@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Auth.css';
 import Logoimage from '../../img/gardenmate.png';
 import {useDispatch} from 'react-redux';
+import { logIn, signUp } from '../../actions/AuthAction';
 
 function Auth() {
   const [isSignup, setIsSignup] = useState(true)
@@ -16,7 +17,7 @@ function Auth() {
     if(isSignup){
       // if(data.passwood !== data.confirm){
       //   setConfirmPass(false)
-      data.passwood ==data.confirm 
+      data.passwood ===data.confirm 
       ? dispatch(signUp (data)) 
       : setConfirmPass(false)
       }else
