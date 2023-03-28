@@ -1,20 +1,27 @@
 import React, { useState } from 'react';
 import './Auth.css';
 import Logoimage from '../../img/gardenmate.png';
-
+import {useDispatch} from 'react-redux';
 
 function Auth() {
   const [isSignup, setIsSignup] = useState(true)
+  const dispatch = useDispatch()
   const [data, setData] = useState({ firstname: "", lastname: "", passwood: "", confirm: "", username: "" })
   const [confirmPass, setConfirmPass] = useState(true)
+
+
   const handleSubmit =(e)=>{
     e.preventDefault();
 
     if(isSignup){
-      if(data.passwood !== data.confirm){
-        setConfirmPass(false)
-      }
-    }
+      // if(data.passwood !== data.confirm){
+      //   setConfirmPass(false)
+      data.passwood ==data.confirm 
+      ? dispatch(signUp (data)) 
+      : setConfirmPass(false)
+      }else
+      {dispatch (logIn(data))}
+    
   }
 
   const reseForm =()=>{
