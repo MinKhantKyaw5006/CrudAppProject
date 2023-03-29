@@ -3,6 +3,9 @@
 This is the project proposal of crud web application ' Chrip' 
 by developer Min Khant Kyaw 
 
+## youtube link
+https://www.youtube.com/watch?v=Icu1zone0fw
+
 ## Table of Contents
 1. [Project Name](##Project_Name)
 2. [Team Members](#technologies)
@@ -19,6 +22,12 @@ Our crud app will be a social media platform like instagram and twitter.
 
 ## Team Members
 Min Khant Kyaw 6410935 - full stack
+
+
+## Project Structure
+      
+1. Chrip folder(client side)
+2. Server folder(server size)
 
 
 ## Project Description
