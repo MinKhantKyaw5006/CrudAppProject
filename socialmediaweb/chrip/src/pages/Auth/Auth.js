@@ -12,7 +12,7 @@ function Auth() {
   const dispatch = useDispatch()
   const [data, setData] = useState({ firstname: "", lastname: "", passwood: "", confirm: "", username: "" })
   const [confirmPass, setConfirmPass] = useState(true)
-  console.log(loading)
+  // console.log(loading)
 
 
   const handleSubmit =(e)=>{
