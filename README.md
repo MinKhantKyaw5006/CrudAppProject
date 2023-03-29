@@ -22,8 +22,9 @@ Min Khant Kyaw 6410935 - full stack
 
 
 ## Project Structure
-
-### `chrip`
+      
+1. Chrip folder(client side)
+2. Server folder(server size)
 
 
 ## Project Description
