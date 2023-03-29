@@ -84,3 +84,11 @@
     padding-left: 23px;
     padding-right: 23px;
 }
+
+.UnfollowButton{
+    color: var(grey);
+    border: 2px solid var(grey);
+    cursor: pointer;
+    background: transparent;
+    
+}
