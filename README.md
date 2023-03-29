@@ -3,6 +3,9 @@
 This is the project proposal of crud web application ' Chrip' 
 by developer Min Khant Kyaw 
 
+## youtube link
+https://www.youtube.com/watch?v=Icu1zone0fw
+
 ## Table of Contents
 1. [Project Name](##Project_Name)
 2. [Team Members](#technologies)
