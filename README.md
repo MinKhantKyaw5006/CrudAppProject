@@ -21,6 +21,11 @@ Our crud app will be a social media platform like instagram and twitter.
 Min Khant Kyaw 6410935 - full stack
 
 
+## Project Structure
+
+### `chrip`
+
+
 ## Project Description
 
 ### `Login System`
