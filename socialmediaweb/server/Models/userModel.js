@@ -31,6 +31,7 @@ const UserSchema = mongoose.Schema(
         livesin: String,
         workAt: String,
         relationship: String,
+        country: String,
         //followers away will store id,
         followers: [],
         following: []

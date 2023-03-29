@@ -17,8 +17,8 @@ function RightSide() {
         <div className="RightSide">
             <div className="navIcons">
                 <Link to = '../home'>
-                {/* <img src={Homeicon} alt="" /> */}
-                <img src={Homeicon} alt="" style={{ width: '25px', height: '25px', borderRadius: '1%', margin: '1px' }} />
+                <img src={Homeicon} alt="" />
+                {/* <img src={Homeicon} alt="" style={{ width: '25px', height: '25px', borderRadius: '1%', margin: '1px' }} /> */}
 
                 </Link>
                 
