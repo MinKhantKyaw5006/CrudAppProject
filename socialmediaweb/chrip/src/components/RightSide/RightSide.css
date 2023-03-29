@@ -34,4 +34,9 @@
   align-self: center;
   bottom: 1rem;
 }
-  
+
+
+.navIcons>a>img {
+  width: 1.5rem;
+  height: 1.5rem;
+}

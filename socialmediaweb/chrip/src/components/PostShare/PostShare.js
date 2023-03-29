@@ -17,6 +17,8 @@ function PostShare() {
     const desc = useRef()
     const dispatch = useDispatch()
 
+    const serverPublic = process.env.REACT_APP_PUBLIC_FOLDER
+
     /* An important Function 
     
     event is gonna file hidden input by the reference in option
@@ -96,7 +98,7 @@ function PostShare() {
 
     return (
         <div className='PostShare'>
-            <img src={Profile} alt="" />
+            <img src={user.profilePicture? serverPublic + user.profilePicture : serverPublic + "defaultProfile.png"} alt="" />
 
             <div>
                 <input 
