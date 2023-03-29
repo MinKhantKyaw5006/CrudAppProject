@@ -24,6 +24,10 @@ Our crud app will be a social media platform like instagram and twitter.
 Min Khant Kyaw 6410935 - full stack
 
 
+## Running on local machine
+1. npm run start in chrip folder (frontend) 
+2. npm run start in server folder
+
 ## Project Structure
       
 1. Chrip folder(client side)
