@@ -32,6 +32,10 @@ export const signUp = (formData) => async(dispatch) => {
 }
 
 
+export const logout = ()=> async (dispatch)=>{
+    dispatch({type: "LOG_OUT"})
+}
+
 // function logIn(formData) {
 //     return async function(dispatch) {
 //       dispatch({type: "AUTH_START"})

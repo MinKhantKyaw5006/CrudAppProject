@@ -12,7 +12,7 @@ function Profile() {
       <div className="Profile-center">
         <div className="profile-ui-container">
           <div className='spare1'></div>
-          <ProfileUI />
+          <ProfileUI location = "profilePage"/>
           <div className='spare2'></div>
         </div>
 

@@ -10,7 +10,7 @@ function ProfileSide() {
     return (
         <div className='ProfileSide'>
             <Logo/>
-            <ProfileUI/>
+            <ProfileUI location="homepage"/>
             <FollowersCard/>
         </div>
     );

@@ -5,11 +5,13 @@ import { Link } from 'react-router-dom';
 import uiline from '../../img/lineui.png'
 import './ProfileUI.css';
 import { useSelector } from 'react-redux';
-function ProfileUI() {
+function ProfileUI({location}) {
     const { user } = useSelector((state) => state.authReducer.authData)
     const serverPublic = process.env.REACT_APP_PUBLIC_FOLDER
+    const posts= useSelector((state) => state.postReducer.posts)
 
-    const ProfilePage = false;
+    // const ProfilePage = false;
+
 
 
     return (
@@ -41,13 +43,13 @@ function ProfileUI() {
                         <span>Followers</span>
 
                     </div>
-                    {ProfilePage && (
+                    {location=== 'profilePage' && (
                         <>
                             <div className="vl">
 
                             </div>
                             <div className="follow">
-                                <span>3</span>
+                                <span>{posts.filter((post)=>post.userId === user._id).length}</span>
                                 <span>Posts</span>
 
                             </div>
@@ -56,7 +58,7 @@ function ProfileUI() {
                 </div>
                 <img src={uiline} alt="" />
             </div>
-            {ProfilePage ? "" :
+            {location=== 'profilePage' ? "" :
                 <span>
                     <Link style={{textDecoration: "none", color: "inherit"}} to={`/profile/${user._id}`} >
                         My Profile
