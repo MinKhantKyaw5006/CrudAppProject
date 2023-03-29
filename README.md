@@ -1,7 +1,7 @@
 # Social Media Crud App
 
 This is the project proposal of crud web application ' Chrip' 
-by developers Min Khant Kyaw and Farial Azmain
+by developer Min Khant Kyaw 
 
 ## Table of Contents
 1. [Project Name](##Project_Name)
@@ -18,8 +18,8 @@ comes from birds making noises. <br />
 Our crud app will be a social media platform like instagram and twitter.
 
 ## Team Members
-Min Khant Kyaw 6410935 - Frontend/ UI <br />
-Farial Azmain  5916866 - Backend/ UI 
+Min Khant Kyaw 6410935 - full stack
+
 
 ## Project Description
 
