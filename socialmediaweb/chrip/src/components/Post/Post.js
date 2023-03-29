@@ -38,6 +38,8 @@ function Post({data}) {
         <span>{data.desc}</span>
     </div>
 
+    {/* <button >Delete</button> */}
+
    </div>
   );
 }

@@ -74,7 +74,7 @@ function PostShare() {
         if(image){
             const data= new FormData ()
             const filename = Date.now() + image.name
-            data.append("name", "filename")
+            data.append("name", filename)
             data.append("file", image)
             newPost.image = filename
             console.log(newPost)
